@@ -1,0 +1,142 @@
+/* hero background image */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bgimage {
+    /* height:900px; */
+    /* background: url(./mypic2.jpg); */
+    /* opacity: 80%; */
+    /* background-size:cover; */
+}
+.my{
+    height: 90;
+    position: relative;
+    width: 100%;
+}
+@media(){
+
+}
+.navbar-brand{color: black;}
+.nav-link{color: black!important;}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+    position: relative;
+    right: 10%;
+}
+.hero_desc {
+    font-size: 2rem;
+    position: relative;
+    right: 10%;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+     bottom: 15%; 
+     /* right:120px; */
+    transform: translate(10%,50%); 
+    color: rgb(67, 32, 32);
+}
+/*about section*/
+.imageAboutPage {
+    width: 100%;
+    /* height: 600px; */
+}
+.card-img-top{
+    height: 220px;
+}
+.card-img-top:hover{
+    transform: scale(1.05);
+    transition-duration:1s;
+    border-radius: 10%;
+    
+}
+.link{
+background-color: royalblue;
+}
+.link:hover{
+    background-color: rgb(101, 126, 192);
+   
+}
+/* services section css */
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+    color: royalblue;
+    
+}
+.card:hover .servicesIcon {
+    color: #5b10e7;;
+
+}
+.servicesText:hover {
+    border: 2px solid #df8309;
+    background-color: rgba(245, 222, 179, 0.338);
+    border-radius: 20px;
+}
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fab {
+    color: #000000;
+}
+
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
+}
+/* spacing on all sections */
+#about, #services, #portfolio, #contact {
+    margin-top: 4rem;
+    padding-top: 4rem;
+}
+#contact {
+    padding-bottom: 4rem;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+#contactsocial{
+    position: relative;
+    
+    text-align: center;
+}
+.social-icons :hover{
+    color: greenyellow;
+}
+.contactConten{
+    position: relative;
+    bottom: 150px;
+}
+.resume button{
+    background-color: antiquewhite;
+    width: 138px;
+    color: #0f0f0e;
+    height: 50px;
+    border: 2px;
+    border-color: #5b10e7;
+}
+@media (max-width:1454px) {
+    .hero-text h4{
+        font-size: 50px;
+        position: relative;
+        bottom: 300px;
+
+    }
+    .hero_desc {
+        font-size: 20px;
+        position: relative;
+        bottom: 300px;
+    }
+    
+}
