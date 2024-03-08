@@ -130,13 +130,13 @@ background-color: royalblue;
     .hero-text h4{
         font-size: 50px;
         position: relative;
-        bottom:400px;
+        bottom:300px;
 
     }
     .hero_desc {
         font-size: 20px;
         position: relative;
-        bottom: 400px;
+        bottom: 300px;
     }
     
 }
