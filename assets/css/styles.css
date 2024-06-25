@@ -708,6 +708,7 @@ body.light-theme {
   position: relative;
   top:90px;
 }
+
 /*=============== TESTIMONIAL ===============*/
 .testimonial__card {
   background-color: var(--container-color);
