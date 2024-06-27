@@ -231,3 +231,12 @@ sr.reveal(`.footer, footer__container`, {
   origin: "bottom",
   distance: "30px",
 });
+
+const typed= new Typed(".role",{
+  // Strings: ['Front-end Developer','Web Designer','Full-Stack Developer'],
+  strings: ['UI/UX Designer','Web Developer','Full-Stack Developer'],
+  typespeed:1000,
+  backspeed:1000,
+  backdelay:10000,
+  loop:true
+});
